@@ -9,7 +9,6 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3','1.3.13'
 # Use Puma as the app server
 gem 'puma', '3.9.1'
 # Use SCSS for stylesheets
@@ -36,6 +35,7 @@ gem 'jbuilder', '2.7.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'sqlite3','1.3.13'
   gem 'byebug','9.0.6', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   #gem 'capybara', '~> 2.13'
@@ -51,5 +51,8 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
+group :production do
+    gem 'pg','0.20.0'
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
