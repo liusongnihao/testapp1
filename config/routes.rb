@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get '/signup',to:'users#new'
-
+  post 'signup',to:'users#create'
  # get 'static_pages/home'
  # get '/home',to: 'static_pages#home'
   get '/help',to: 'static_pages#help'
