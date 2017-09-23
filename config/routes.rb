@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :user_tests
   get 'password_resets/new'
 
   get 'password_resets/edit'

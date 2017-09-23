@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "toy_app.jipai-v.jipai.dtd">
+<PRJ>
+  <Project_Information>
+    <Working_Time>60</Working_Time>
+    <Project_Start>0B000000250000001100000002000000080000007500000006000000F40000000000000000000000807000000000000060A8AA040000000060</Project_Start>
+    <MDIPerspective/>
+  </Project_Information>
+  <Active_Settings>
+    <Active_File_Display_Mode>-1</Active_File_Display_Mode>
+  </Active_Settings>
+</PRJ>
